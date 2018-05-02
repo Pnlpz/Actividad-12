@@ -2,8 +2,8 @@
 # hint: Debes utilizar 'rubocop'
 # y no obtener errores ni warnings.
 
-def par(x)
-  if x % 2 == 0
+def par(numero)
+  if numero.even?
     return true
   else
     return false
@@ -16,3 +16,4 @@ puts par(4)
 puts par(5)
 
 #No tengo Rubocop. Lo instalé, pero no sé dónde activarlo.
+#Listo∫

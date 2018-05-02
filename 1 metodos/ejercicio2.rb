@@ -6,10 +6,12 @@ def random
   puts result
 end
 
+puts random
+
 if random == true
-  puts 'sí'
+  print 'sí'
 elsif random == false
-  puts 'no'
+  print 'no'
 else
-  puts 'error'
+  print 'error'
 end
