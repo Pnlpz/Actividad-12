@@ -2,16 +2,17 @@
 # Se pide identificar el error y corregirlo.
 
 def random
-  result = [true, false].sample #Qué hace .sample???
+  result = [true, false].sample
   puts result
+
 end
 
-puts random
+random
 
 if random == true
   print 'sí'
-elsif random == false
+else random == false
   print 'no'
-else
-  print 'error'
 end
+
+#qué se cambia? No entiendo
