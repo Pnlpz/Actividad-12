@@ -3,7 +3,7 @@
 a = ''
 b = ''
 
-def positivos(*)
+def positivos(a..b)
   print 'escribe dos numeros'
  a = gets.chomp.to_i
  b = gets.chomp.to_i
@@ -18,4 +18,4 @@ end
 positivos
 
 
-#Nope, no entender
+#Nope, no entender :/

@@ -15,5 +15,4 @@ puts par(3)
 puts par(4)
 puts par(5)
 
-#No tengo Rubocop. Lo instalé, pero no sé dónde activarlo.
-#Listo∫
+#Listo. Aunque Rubocop es un exagerado...

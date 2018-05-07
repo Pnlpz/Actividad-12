@@ -7,11 +7,11 @@ def random
 
 end
 
-random
+print random
 
 if random == true
   print 'sí'
-else random == false
+else
   print 'no'
 end
 

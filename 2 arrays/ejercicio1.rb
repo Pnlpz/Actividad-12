@@ -9,6 +9,13 @@ arreglo = [1,2,3,9,1,4,5,2,3,6,6]
 
 puts arreglo[0]
 puts arreglo[10]
-print arreglo
-puts  arreglo # No entiendo el 4.
-              #No puedo hacer el 5
+puts arreglo
+
+a = 0
+arreglo.map {|i| puts "#{a +=1}.- #{i}" }
+
+
+arreglo.select{ |x| x % 2 == 0}
+
+
+#Listo

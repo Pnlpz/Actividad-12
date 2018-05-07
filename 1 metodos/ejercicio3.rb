@@ -10,7 +10,7 @@ def check5(valor)
     print "false"
   end
 end
-#nope
+
 
  check5(5) # Debería ser false
  check5(7) # Debería ser true

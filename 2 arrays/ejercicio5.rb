@@ -4,13 +4,16 @@
 # <div class='product'><p> Producto3 </p><p> Precio: 1500 </p></div>
 # <div class='product'><p> Producto4 </p><p> Precio: 950 </p></div>
 
-products = %w(Producto1 Producto2 Producto3 Producto4)
-prices = %w[1000 2000 1500 950]
+products = ['Producto1', 'Producto2', 'Producto3', 'Producto4']
+prices = [1000, 2000, 1500, 950]
+
 
 html = ''
 products.each do |i|
-  html += "<div class='product'>"
+  html += "<div class='product'><p> #{i} </p><p> #{prices } </p>"
   html += "</div>\n"
 end
 
 puts html
+
+#No sé como ingresar los precios individuales dentro del output
