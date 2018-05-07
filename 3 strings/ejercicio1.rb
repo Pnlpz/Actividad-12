@@ -5,3 +5,14 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def parametros()
+
+  puts "#{} #{}"
+  parametros.include?('a') == true
+  parametros.include?('b') == true
+end
+
+parametros
+
+#No entiendo
