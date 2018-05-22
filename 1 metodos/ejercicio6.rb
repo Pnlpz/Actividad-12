@@ -14,7 +14,6 @@ def draw_lines(size)
   size.times { puts draw_line}
 end
 
-draw_line 2
-draw_lines 10
+ 5.times do puts draw_line 5 end
 
-#No entiendo
+#Listo

@@ -6,13 +6,13 @@
 cadena = 'Hola Mundo!'
 caracter = 'o'
 
-def parametros()
+def parametros(cadena, caracter)
 
-  puts "#{} #{}"
+  gets "#{cadena} #{caracter}"
   parametros.include?('a') == true
   parametros.include?('b') == true
 end
 
-parametros
+parametros(hola)
 
 #No entiendo

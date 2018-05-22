@@ -7,10 +7,17 @@
 products = ['Producto1', 'Producto2', 'Producto3', 'Producto4']
 prices = [1000, 2000, 1500, 950]
 
+hash = {}
+i =0
+products.each do |product|
+  hash[0] = prices[]
+  i += 1
+end
+puts hash
 
 html = ''
 products.each do |i|
-  html += "<div class='product'><p> #{i} </p><p> #{prices } </p>"
+  html += "<div class='product'><p> #{i} </p><p> #{precios} </p>"
   html += "</div>\n"
 end
 
