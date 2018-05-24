@@ -7,20 +7,29 @@
 products = ['Producto1', 'Producto2', 'Producto3', 'Producto4']
 prices = [1000, 2000, 1500, 950]
 
-hash = {}
-i =0
-products.each do |product|
-  hash[0] = prices[]
+products_hash = {}
+i=0
+products.each do |k|
+  products_hash[k] = prices[i]
   i += 1
 end
-puts hash
+# puts products_hash
 
-html = ''
-products.each do |i|
-  html += "<div class='product'><p> #{i} </p><p> #{precios} </p>"
-  html += "</div>\n"
-end
+products_hash.each { |product, price| puts "<div class='product'><p> #{product}</p><p> #{price} </p>" }
 
-puts html
-
-#No sé como ingresar los precios individuales dentro del output
+#
+# html_2 = ''
+# prices.each do |price|
+#   html_2 += "</p><p> #{price} </p>"
+#   html_2 += "</div>\n"
+# end
+#
+# html = ''
+# products.each do |i|
+#   html += "<div class='product'><p> #{i}"
+#   html += "</div>\n"
+# end
+#
+# puts "#{html} #{html_2}"
+#
+# #No sé como ingresar los precios individuales dentro del output
