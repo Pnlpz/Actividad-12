@@ -7,12 +7,10 @@ cadena = 'Hola Mundo!'
 caracter = 'o'
 
 def parametros(cadena, caracter)
-
-  gets "#{cadena} #{caracter}"
-  parametros.include?('a') == true
-  parametros.include?('b') == true
+  puts cadena.include?(caracter)
+  puts caracter.include?(cadena)
 end
 
-parametros(hola)
+parametros('hola', 'o')
 
 #No entiendo

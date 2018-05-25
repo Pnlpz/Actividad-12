@@ -7,16 +7,16 @@
 a = [1, 2, 3, 9, 12, 31, 'domingo']
 b = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo']
 
-a.to_s + b.to_s
+puts a.to_s + b.to_s
 
 #Ejercicio 2
-d = (a & b).select {|x| x}
+d = (a + b).select {|x| x}
 print d
 
 #ejercicio3
 c = (a & b).group_by{|x| x}
 
-print c
+puts c
 
 
 #Incompleto....no entender
